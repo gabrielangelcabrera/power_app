@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021 Gabriel Cabrera <gabrielcabrera@utexas.edu> -->
+<component type="desktop">
+    <id>com.github.gabrielangelcabrera.power_app</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Power App</name>
+    <summary>Power Distribution App</summary>
+    <description>
+        <p>Simple way of seeing the power distribution</p>
+    </description>
+    <custom>
+        <value key="x-appcenter-color-primary">#603461</value>
+        <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+        <value key="x-appcenter-suggested-price">5</value>
+        <value key="x-appcenter-stripe">pk_live_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+    </custom>
+</component>

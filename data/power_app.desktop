@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Power App
+GenericName=Power Distribution App
+Comment=Proves that we can use Vala and Gtk
+Categories=Utility;
+Exec=com.github.gabrielangelcabrera.power_app
+Icon=com.github.gabrielangelcabrera.power_app
+Terminal=false
+Type=Application
+Keywords=Power;Management;

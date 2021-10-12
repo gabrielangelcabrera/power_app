@@ -1,0 +1,15 @@
+app-id: com.github.gabrielangelcabrera.power_app
+runtime: io.elementary.Platform
+runtime-version: '6'
+sdk: io.elementary.Sdk
+command: com.github.gabrielangelcabrera.power_app
+finish-args:
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+modules:
+  - name: power_app
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
